@@ -10,3 +10,16 @@ header{
 .slider{
     background-color: yellow;
 }
+
+
+@font-face {
+    font-family: 'mohammadreza';
+    src: url(Archivo-Black.ttf) format('TrueType');
+}
+h1{
+    font-family: var(--m);
+}
+
+:root{
+    --m: 'mohammadreza'
+}
